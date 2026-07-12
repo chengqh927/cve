@@ -126,7 +126,7 @@ echo test_content_for_validation > D:\test.txt
 WordPress Admin > Download Monitor > Downloads > Add New
 ```
 
-![test12](C:\Users\zyj\Desktop\test\test3\test12.png)
+![test12](.\screenshots\test12.png)
 
 **Step 3:** In the "Downloadable Files" section, enter the following malicious URL:
 
