@@ -135,7 +135,7 @@ function hefo_the_excerpt($content) {
 
 1. Login to WordPress admin dashboard
 
-   ![test7](D:\test7.png)
+   ![test7](./screenshots/test7.png)
 
 2. Navigate to: **Settings → Header & Footer**
 
@@ -148,13 +148,13 @@ function hefo_the_excerpt($content) {
 
 5. Click **"Save"** to persist the configuration
 
-   ![test8](D:\test8.png)
+   ![test8](./screenshots/test8.png)
 
 6. Visit any post page on the frontend
 
 7. The malicious script executes automatically, displaying an alert popup
 
-   ![test9](D:\test9.png)
+   ![test9](./screenshots/test9.png)
 
 ### PoC Payload Examples
 
